@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/github/AlgorithmProjects/1_3/Solution.cpp
+iostream
+-
+cstdio
+-
+vector
+-
+algorithm
+-
+utility
+-
+string
+-
+stdlib.h
+/cygdrive/c/github/AlgorithmProjects/1_3/stdlib.h
+
+/cygdrive/c/github/AlgorithmProjects/1_3/main.cpp
+iostream
+-
+string
+-
+Solution.cpp
+/cygdrive/c/github/AlgorithmProjects/1_3/Solution.cpp
+
