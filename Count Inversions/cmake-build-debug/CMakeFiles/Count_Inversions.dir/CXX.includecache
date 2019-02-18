@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/gitHub/AlgorithmsRepo/Count Inversions/CntInv.cpp
+iostream
+-
+cmath
+-
+cstdio
+-
+vector
+-
+
+D:/gitHub/AlgorithmsRepo/Count Inversions/main.cpp
+iostream
+-
+vector
+-
+CntInv.cpp
+D:/gitHub/AlgorithmsRepo/Count Inversions/CntInv.cpp
+iterator
+-
+sstream
+-
+
