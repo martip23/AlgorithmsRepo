@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/github/AlgorithmsRepo/MergeSort/MergeSort.cpp
+D:/gitHub/AlgorithmsRepo/MergeSort/MergeSort.cpp
 iostream
 -
 cmath
@@ -16,13 +16,13 @@ cstdio
 vector
 -
 
-/cygdrive/c/github/AlgorithmsRepo/MergeSort/main.cpp
+D:/gitHub/AlgorithmsRepo/MergeSort/main.cpp
 iostream
 -
 vector
 -
 MergeSort.cpp
-/cygdrive/c/github/AlgorithmsRepo/MergeSort/MergeSort.cpp
+D:/gitHub/AlgorithmsRepo/MergeSort/MergeSort.cpp
 iterator
 -
 sstream

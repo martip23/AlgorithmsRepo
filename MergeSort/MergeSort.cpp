@@ -17,10 +17,41 @@ class Solution{
 
   std::vector<int> merge(std::vector<int> a, std::vector<int> b) {
 
-    auto outsize = a.size() + b.size();
-    std::vector<int> out(outsize, 0);
+    auto aSize = a.size();
+    auto bSize = b.size();
+    auto outsize = aSize + bSize;
+    std::vector<int> out;
 
-    ----- your code here ----
+    auto aptr = 0;
+    auto bptr = 0;
+
+    for (auto i = 0; i < outsize; i++) {
+
+
+        if (a.at(aptr) <= b.at(bptr)) {
+            out.push_back(a.at(aptr));
+            aptr++;
+
+            // If at end of loop, add the rest of items in b and return
+            if (aptr == aSize) {
+                for (;bptr < bSize; bptr++)
+                    out.push_back(b.at(bptr));
+                return out;
+            }
+
+        }
+        else {
+            out.push_back(b.at(bptr));
+            bptr++;
+
+            if (bptr == bSize) {
+                for (;aptr < aSize; aptr++)
+                    out.push_back(a.at(aptr));
+                return out;
+            }
+
+        }
+    }
     
     return out;
 
@@ -42,7 +73,7 @@ class Solution{
     std::vector<int> leftHalf(input.begin(),input.begin() + inputHalfSize);
     std::vector<int> rightHalf(input.begin() + inputHalfSize, input.end());
           
-          mergeSort();
+          return merge(mergeSort(leftHalf), mergeSort(rightHalf));
 
   }
 
