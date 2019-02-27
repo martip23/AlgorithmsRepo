@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/gitHub/AlgorithmsRepo/Strassens Matrix/Strassen.cpp
+iostream
+-
+stdio.h
+-
+vector
+-
+random
+-
+ctime
+-
+
+D:/gitHub/AlgorithmsRepo/Strassens Matrix/main.cpp
+iostream
+-
+stdio.h
+-
+vector
+-
+random
+-
+ctime
+-
+Strassen.cpp
+D:/gitHub/AlgorithmsRepo/Strassens Matrix/Strassen.cpp
+
