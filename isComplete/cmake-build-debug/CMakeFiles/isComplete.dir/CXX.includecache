@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/github/AlgorithmsRepo/isComplete/PrintEvens.cpp
+iostream
+-
+
+/cygdrive/c/github/AlgorithmsRepo/isComplete/main.cpp
+iostream
+-
+PrintEvens.cpp
+/cygdrive/c/github/AlgorithmsRepo/isComplete/PrintEvens.cpp
+

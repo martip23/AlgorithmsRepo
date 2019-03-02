@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/MidElementStack.dir/main.cpp.o  -o MidElementStack.exe -Wl,--out-implib,libMidElementStack.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

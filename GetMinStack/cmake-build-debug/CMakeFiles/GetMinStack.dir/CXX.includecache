@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/github/AlgorithmsRepo/GetMinStack/main.cpp
+iostream
+-
+stack
+-
+myMinStack.cpp
+/cygdrive/c/github/AlgorithmsRepo/GetMinStack/myMinStack.cpp
+
+/cygdrive/c/github/AlgorithmsRepo/GetMinStack/myMinStack.cpp
+iostream
+-
+stack
+-
+climits
+-
+

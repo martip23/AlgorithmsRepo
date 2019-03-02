@@ -1,0 +1,3 @@
+/cygdrive/c/github/AlgorithmsRepo/MidElementStack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/github/AlgorithmsRepo/MidElementStack/cmake-build-debug/CMakeFiles/MidElementStack.dir
+/cygdrive/c/github/AlgorithmsRepo/MidElementStack/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="SortedVecFindMissing" targetName="SortedVecFindMissing" />
+      <config projectName="MidElementStack" targetName="MidElementStack" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81e516d7-1f72-486e-a04c-377e3091461c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d687651d-814b-4828-b6e2-e8dca4557520" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../GetMinStack/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GetMinStack/myMinStack.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../checkParenthesis/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../closestVal/PrintEvens.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../closestVal/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../closestVal2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../closestVal2/PrintEvens.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../isComplete/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../isComplete/PrintEvens.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortedVecFindMissing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SortedVecFindMissing/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,29 +33,26 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="276">
+              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/cygwin64/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/bits/stl_vector.h">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/deleteMid.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14008">
-              <caret line="824" selection-start-line="824" selection-end-line="824" />
+            <state relative-caret-position="187">
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -59,6 +66,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/deleteMid.cpp" />
       </list>
     </option>
   </component>
@@ -74,8 +82,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MidElementStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MidElementStack" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -95,7 +113,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="SortedVecFindMissing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SortedVecFindMissing" TARGET_NAME="SortedVecFindMissing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SortedVecFindMissing" RUN_TARGET_NAME="SortedVecFindMissing">
+    <configuration name="MidElementStack" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MidElementStack" TARGET_NAME="MidElementStack" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MidElementStack" RUN_TARGET_NAME="MidElementStack">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -103,75 +121,59 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="81e516d7-1f72-486e-a04c-377e3091461c" name="Default Changelist" comment="" />
-      <created>1549913194516</created>
+      <changelist id="d687651d-814b-4828-b6e2-e8dca4557520" name="Default Changelist" comment="" />
+      <created>1551499438790</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1549913194516</updated>
-      <workItem from="1549913196120" duration="2496000" />
-      <workItem from="1550365268977" duration="1024000" />
-      <workItem from="1551122461777" duration="19000" />
+      <updated>1551499438790</updated>
+      <workItem from="1551499440033" duration="1291000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3539000" />
+    <option name="totallyTimeSpent" value="1291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1294" height="694" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25769854" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959481" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" weight="0.3291815" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291815" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41992882" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291815" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.3291815" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="CMake" order="12" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://C:/cygwin64/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/bits/stl_vector.h">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14008">
-          <caret line="824" selection-start-line="824" selection-end-line="824" />
+        <state relative-caret-position="276">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/deleteMid.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
         </state>
       </provider>
     </entry>

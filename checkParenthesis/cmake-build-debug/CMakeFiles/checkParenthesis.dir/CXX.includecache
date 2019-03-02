@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/github/AlgorithmsRepo/checkParenthesis/VerifyParens.cpp
+iostream
+-
+cmath
+-
+cstdio
+-
+stack
+-
+
+/cygdrive/c/github/AlgorithmsRepo/checkParenthesis/main.cpp
+iostream
+-
+stack
+-
+string
+-
+VerifyParens.cpp
+/cygdrive/c/github/AlgorithmsRepo/checkParenthesis/VerifyParens.cpp
+

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/github/AlgorithmsRepo/evalPostFix/PostFix.cpp
+iostream
+-
+stack
+-
+string
+-
+
+/cygdrive/c/github/AlgorithmsRepo/evalPostFix/main.cpp
+iostream
+-
+stack
+-
+string
+-
+PostFix.cpp
+/cygdrive/c/github/AlgorithmsRepo/evalPostFix/PostFix.cpp
+

@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/closestVal2.dir/main.cpp.o  -o closestVal2.exe -Wl,--out-implib,libclosestVal2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
