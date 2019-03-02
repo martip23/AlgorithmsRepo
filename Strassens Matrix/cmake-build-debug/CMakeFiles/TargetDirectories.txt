@@ -1,0 +1,3 @@
+D:/gitHub/AlgorithmsRepo/Strassens Matrix/cmake-build-debug/CMakeFiles/Strassens_Matrix.dir
+D:/gitHub/AlgorithmsRepo/Strassens Matrix/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/gitHub/AlgorithmsRepo/Strassens Matrix/cmake-build-debug/CMakeFiles/rebuild_cache.dir
