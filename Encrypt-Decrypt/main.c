@@ -17,6 +17,10 @@ void prompt(char choice[]) {
     getline(&choice, 254, stdin);
     printf(choice);
 
+    if (choice != 'steak') {
+        printf("You chose the wrong meal, buddy.");
+    }
+
 }
 
 int main() {
