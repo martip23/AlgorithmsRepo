@@ -46,22 +46,29 @@ class Graph
     // add edges (u,weight,v) to the undirected graph  add pair (weight, v)
     for (auto &edge: edges)
     {
+        auto src = edge.src;
+        auto dest = edge.dest;
+        auto weight = edge.weight;
       /** Note that this is for undirected graph so both ways */
       // create adjacency list
-     
-     //******************* your code to populate adj list  ******************
-
+      adjList[src].push_back(std::make_pair(dest, weight));
+      adjList[dest].push_back(std::make_pair(src, weight));
     }
 
     /** Contains a commented out  print out the graph routine that is commented out
      * You must sort the adjacency list vectors by weight!!*/
     
       int printu = 0;
+
       //*********************** sort the vectors by weight ***********************
-        
-    //std::for_each ((*it).begin(), (*it).end(), [printu](std::pair<int,int> p) {std::cout<<printu<<" "<< p.first <<" "<<p.second<< std::endl;});
-    // printu ++;
-    // }
+      std::sort(adjList.begin(), adjList.end(),
+              [](const std::vector<int>& a, const std::vector<int>& b) {
+          return (a[2] < b[2]);
+      });
+
+//        std::vector<std::vector<std::pair<int, int>>>::iterator it;
+//    std::for_each ((adjList[printu]).begin(), (adjList[printu]).end(), [printu](std::pair<int,int> p) {std::cout<<printu<<" "<< p.first <<" "<<p.second<< std::endl;});
+//     printu ++;
 
   }
 };
@@ -81,7 +88,7 @@ void iterativeDFS(Graph const &graph, int v, int N, std::vector<bool> & discover
 
 
   // ************************  your code for DFS ******************
-  // *************** Make sure it prinnts out pop,push, discover  in appropriate places
+  // *************** Make sure it prints out pop,push, discover  in appropriate places
 
 
 
