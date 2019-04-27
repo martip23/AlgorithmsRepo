@@ -62,8 +62,8 @@ class Graph
 
       //*********************** sort the vectors by weight ***********************
       std::sort(adjList.begin(), adjList.end(),
-              [](const std::vector<int>& a, const std::vector<int>& b) {
-          return (a[2] < b[2]);
+              [](const std::pair<int,int>& a, const std::pair<int,int>& b) {
+          return ( a.second < b.second);
       });
 
 //        std::vector<std::vector<std::pair<int, int>>>::iterator it;
